@@ -1,8 +1,9 @@
 public class MobilPhone extends OldPhone
 {
 	private String lastNumbers[] = new String[10];
-	public MobilPhone()
+	public MobilPhone (String brand)
 	{
+		super(brand);
 		for (int i=0; i<10; i++)
 			lastNumbers[i]="";
 	}
